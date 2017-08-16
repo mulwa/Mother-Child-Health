@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/icon"
+            android:src="@drawable/profile_circular_border_imageview"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/icon">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/primaryTextColor"
+                android:id="@+id/tv_vaccine_Name"
+                android:fontFamily="sans-serif-condensed"
+                android:layout_marginBottom="5dp"
+                android:hint="BCG"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_vaccine_Name"
+                android:fontFamily="sans-serif-medium"
+                android:textColor="@color/primaryTextColor"
+                android:id="@+id/label_due_date"
+                android:layout_marginBottom="5dp"
+                android:text="Due Date"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_vaccine_Name"
+                android:layout_alignParentRight="true"
+                android:fontFamily="sans-serif-medium"
+                android:id="@+id/tv_due_date"
+                android:hint="20-5-2017"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primaryTextColor"
+                android:layout_below="@+id/label_due_date"
+                android:fontFamily="sans-serif-medium"
+                android:text="Date Given"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/label_due_date"
+                android:layout_alignParentRight="true"
+                android:fontFamily="sans-serif-medium"
+                android:id="@+id/tv_date_given"
+                android:textStyle="bold"
+                android:hint="20-5-2017"/>
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

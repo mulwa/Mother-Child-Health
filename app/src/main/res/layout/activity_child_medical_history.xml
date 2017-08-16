@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data
+        class="ChildMedicalBinding">
+
+    </data>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mulwa.mc_care.Child.ChildMedicalHistory">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <include
+            layout="@layout/toolbar"
+            android:id="@+id/included"/>
+    </android.support.design.widget.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:scrollbars="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="16dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="16sp"
+                    android:textColor="@color/text_color"
+                    android:fontFamily="sans-serif-condensed"
+                    android:text="Child General Information"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        style="@style/profile_header"
+                        android:text="Name"/>
+                    <TextView
+                        style="@style/profile_text"
+                        android:id="@+id/tv_child_name"
+                        android:hint="Christopher Mulwa" />
+                </LinearLayout>
+                <View style="@style/Divider"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        style="@style/profile_header"
+                        android:text="Patient Id"/>
+                    <TextView
+                        style="@style/profile_text"
+                        android:id="@+id/tv_child_id"
+                        android:hint="P01-140985" />
+                </LinearLayout>
+                <View style="@style/Divider"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        style="@style/profile_header"
+                        android:text="Gender"/>
+                    <TextView
+                        style="@style/profile_text"
+                        android:id="@+id/tv_child_gender"
+                        android:hint="Male" />
+                </LinearLayout>
+                <View style="@style/Divider"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        style="@style/profile_header"
+                        android:text="Date of Birth"/>
+                    <TextView
+                        style="@style/profile_text"
+                        android:id="@+id/tv_child_dob"
+                        android:hint="25-12-2015" />
+                </LinearLayout>
+                <View style="@style/Divider"/>
+
+            </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:textColor="@color/text_color"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Immunization Details"/>
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:scrollbars="vertical"
+            android:id="@+id/vaccineRecycler">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</android.support.design.widget.CoordinatorLayout>
+</layout>

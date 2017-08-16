@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">MC-Care</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="dump_text">
+        Lorem ipsum dolor sit amet, ut legere ornatus adversarium mea, ea probo putant omnium quo. Vis rebum vituperatoribus id. Eu dico ubique graece eos, quas tation aperiam sed cu, nibh torquatos constituam in pro. Sed at agam inani ridens,
+        nec in purto dicta.Ei patrioque iracundia elaboraret vix, ipsum luptatum reprimique duo ad. Sit velit cetero an. Tractatos expetenda necessitatibus sea ad, ad pro munere vituperata. Quas eirmod quo ne,
+        mea zril insolens ea, sea cu sumo detracto. Pri sensibus tincidunt in, tollit tamquam urbanitas te ius, mei iriure equidem indoctum ei.
+        Odio stet no eos. Eu pri odio partiendo imperdiet. Id graece causae scripta pro, mel ut eros numquam mentitum. In vel augue similique adolescens, everti luptatum no qui, an quo iusto dictas imperdiet.
+        Ad aliquid reprimique sit, eam tibique expetendis reprehendunt ad. An mea cibo doming phaedrum, eam accumsan oporteat ex, cum an utroque ancillae evertitur. Saepe delicata dissentiet qui ut, nec elit invidunt
+        ad, nam ei mollis nominavi insolens. An sit nihil dicam sententiae, eam id tritani numquam civibus, vis no esse atomorum. Mea sint vivendo eu, in sed veri utinam nusquam. Vim id sint fugit erroribus, sed
+        cu viris dolores tacimates, at latine cotidieque his.Malorum corrumpit vis te. Dicit alterum offendit eam et, consul dissentiunt consectetuer in qui. Decore argumentum vis ex, mea ornatus placerat et, ei purto intellegat sadipscing quo. Et vivendo persequeris est. Vix appareat repudiare ex. Ad quod facilis mea, at veniam feugait usu. Suas definitiones in vix, per ornatus ocurreret eu.
+    </string>
+    <string name="title_activity_tabbed">Tabbed</string>
+    <string name="section_format">%1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_clinic_location">Map</string>
+    <string name="careDuringPregnancy">
+        Eat one extra meal every day during pregnancy
+        Eat plenty of fruits and vegetables
+        Take iron and folic acid tablet
+        Avoid heavy work , rest more
+        Sleep under an insecticide treated  bed net
+        Go for ANC visit as soon as possible , and at least 4 times during pregnancy
+    </string>
+    <string-array name="care_during_pregnancy">
+        <item>Eat one extra meal every day during pregnancy</item>
+        <item>Eat plenty of fruits and vegetables</item>
+        <item>Take iron and folic acid tablet</item>
+        <item>Avoid heavy work , rest more</item>
+        <item>Sleep under an insecticide treated bed net</item>
+        <item>Go for ANC visit as soon as possible , and at least 4 times during pregnancy</item>
+    </string-array>
+
+    <string-array name="danger_signs_during_pregnancy">
+        <item>any vaginal bleeding</item>
+        <item>severe abdominal pain</item>
+        <item>severe headache</item>
+        <item>very pale</item>
+        <item>fever</item>
+        <item>reduced or no fetal movements</item>
+        <item>Breaking of water, getting tired easily, and swelling of the face and hands, breathlessness.</item>
+        <item></item>
+    </string-array>
+    <string-array name="care_after_birth">
+        <item>Eat two extra meals during breastfeeding period</item>
+        <item>Give only breast milk to the baby and keep the baby warm all the time</item>
+        <item>Sleep with the baby under an insecticide treated bed net </item>
+    </string-array>
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/clinic_visit"
+            android:icon="@drawable/ic_assignment"
+            android:title="Medical Profile" />
+
+        <item
+            android:id="@+id/specialist"
+            android:icon="@drawable/ic_clinic"
+            android:title="Locate Specialist" />
+        <item
+            android:id="@+id/verify_specialist"
+            android:icon="@drawable/ic_clinic"
+            android:title="Verify Specialist" />
+        <item
+            android:id="@+id/nearbyClinic"
+            android:icon="@drawable/ic_fitness"
+            android:title="Nearby Clinic" />
+
+    </group>
+
+    <item android:title="Information">
+        <menu>
+            <item
+                android:id="@+id/health_tips"
+                android:icon="@drawable/ic_schedule"
+                android:title="Health Tips" />
+            <item
+                android:id="@+id/fitness"
+                android:icon="@drawable/ic_fitness"
+                android:title="Health Fitness" />
+            <item
+                android:id="@+id/chat_room"
+                android:icon="@drawable/ic_fitness"
+                android:title="H-Assitance" />
+            <item
+                android:id="@+id/home"
+                android:title="Home"
+                android:visible="false"/>
+
+
+        </menu>
+    </item>
+
+</menu>

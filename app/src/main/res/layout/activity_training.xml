@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data
+        class="TrainingBinding">
+
+    </data>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.mulwa.mc_care.Training">
+
+    <android.support.v7.widget.Toolbar
+        android:minHeight="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:background="?attr/colorPrimary"
+        app:layout_collapseMode="pin"
+        android:id="@+id/toolbar"
+
+        app:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:elevation="4dp"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="6dp"
+        android:background="@drawable/background_drawable"
+        android:layout_height="match_parent">
+
+        <Button
+            style="@style/btn_menu"
+            android:text="During Pregnacy"/>
+        <Button
+            style="@style/btn_menu"
+            android:text="After Birth"/>
+        <Button
+            style="@style/btn_menu"
+            android:text="Danger Signs "/>
+        <Button
+            style="@style/btn_menu"
+            android:text="Feeding Recommendation"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+</layout>
+

@@ -1,0 +1,99 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="4dp"
+    tools:context="com.example.mulwa.mc_care.HealthTips.AfterPregnancy">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="4dp">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Feeding Recommendations During Health and Sickness and care for development"
+                        android:textStyle="bold"
+                        android:fontFamily="sans-serif-condensed"
+                        android:textSize="16sp"/>
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/health_diet" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:textSize="16sp"
+                        android:fontFamily="sans-serif-condensed"
+                        android:lineSpacingExtra="1.5dp"
+                        android:text="@string/careDuringPregnancy"/>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="4dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="16sp"
+                        android:layout_gravity="center"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:fontFamily="sans-serif-condensed"
+                        android:text="Danger signs during pregnancy"/>
+                    <TextView
+                        style="@style/commonDisplayText"
+                        android:text="any  vaginal bleeding"/>
+                    <TextView
+                        style="@style/commonDisplayText"
+                        android:text=" severe abdominal pain"/>
+                    <TextView
+                        style="@style/commonDisplayText"
+                        android:text=" severe headache"/>
+                    <TextView
+                        style="@style/commonDisplayText"
+                        android:text="reduced or no fetal movements"/>
+                    <TextView
+                        style="@style/commonDisplayText"
+                        android:text=" Breaking of water, getting tired easily, swelling of the face and hands, breathlessness"/>
+                </LinearLayout>
+
+
+
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>
